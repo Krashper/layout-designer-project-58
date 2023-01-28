@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1100px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 100px 0;
+    box-sizing: border-box;
+    position: relative;
+}
+header {
+    background: url(img/background.jpg);
+    opacity: 0.9;
+}
+.title h1 {
+    font-family: 'Neucha', cursive;
+    color: #FE8A02;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 86px;
+}
+.title span {
+    color: #2A2626;
+}
+.title img {
+    height: 528px;
+    position: absolute;
+    top: 150px;
+    right: -370px;
+}
+.title {
+    padding-bottom: 300px;
+}
+.columns-2 {
+    columns: 2 250px;
+    column-gap: 30px;
+}
+.content p {
+    margin: 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: flex-end;
+    color: #2A2626;
+}
+.content a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #FE8A02;
+    padding: 12px 24px;
+    margin-top: 40px;
+    position: absolute;
+}
